@@ -51,7 +51,7 @@ bot.help((ctx) => {
 
 // Setup webhook
 app.use(bot.webhookCallback('/webhook'));
-bot.telegram.setWebhook('https://beestar-backend.vercel.app//webhook');
+bot.telegram.setWebhook('https://beestar-backend.vercel.app/webhook');
 
 app.get('/', (req, res) => {
     res.send('Hello World! Bot is running.');
